@@ -46,7 +46,7 @@ altrimenti “Accesso negato” -->
             }
 
         } else {
-            $allert =  "Hai dimenticato qualche parametro";
+            $allert =  "devi passare name, mail e age";
         }
     ?>
 
