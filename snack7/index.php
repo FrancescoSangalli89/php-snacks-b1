@@ -23,6 +23,13 @@
             ]
         ],
         [
+            'name' => 'Federica',
+            'surname' => 'Rossi',
+            'votes' => [
+                7.5, 7.5, 7, 8.5
+            ]
+        ],
+        [
             'name' => 'Stefano',
             'surname' => 'Speroni',
             'votes' => [
@@ -46,7 +53,7 @@
             
                 $student = $students[$i];
         
-                $average = array_sum($student['votes'])/count($student['votes']);
+                $average = number_format(array_sum($student['votes'])/count($student['votes']), 2, '.', '');
         
                 echo "<li>" . $student['name'] . " " . $student['surname'] . " : " . "media voto => " . $average . "</li>";
         
