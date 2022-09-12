@@ -17,7 +17,6 @@ altrimenti “Accesso negato” -->
 
         $allert = "";
 
-        //voglio verificare se nella email da controllare è presente il simbolo @ e il .
         if (isset($_GET['name'], $_GET['mail'], $_GET['age'])) {
 
             $name = $_GET['name'];
