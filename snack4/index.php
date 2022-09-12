@@ -16,13 +16,13 @@
 
         $totNumbers = 15;
 
-        $myArray = $arrayOfNumbers;
+        $myArray = getArrayOfRandomNumbers($totNumbers);
 
-        function getArrayOfRandomNumbers($totNumbers) {
+        function getArrayOfRandomNumbers($numbers) {
 
             $arrayOfNumbers = [];
 
-            while (count($arrayOfNumbers) < $totNumbers) {
+            while (count($arrayOfNumbers) < $numbers) {
 
                 $number = rand();
 
@@ -33,8 +33,9 @@
 
             return $arrayOfNumbers;
         }
+        
 
-        echo $myArray;
+        var_dump($myArray);
         ?>
 
     </body>
