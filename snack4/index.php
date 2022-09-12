@@ -36,6 +36,8 @@
         
 
         var_dump($myArray);
+        print_r($myArray);
+        
         ?>
 
     </body>
