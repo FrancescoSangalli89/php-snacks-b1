@@ -37,8 +37,20 @@
 
         var_dump($myArray);
         print_r($myArray);
-        
+
         ?>
+
+        <ul>
+            <?php
+
+                for ($i=0; $i < count($myArray); $i++) {
+                    
+                    echo "<li>" . $myArray[$i] . "</li>";
+                    
+                }
+
+            ?>
+        </ul>
 
     </body>
 </html>
